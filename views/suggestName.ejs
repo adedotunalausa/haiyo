@@ -1,0 +1,26 @@
+
+<%- include("partials/header") -%>
+
+<div class="main-suggestName">
+
+  <h4>Please Enter the details below</h4>
+
+  <form action="/suggestName" method="post">
+    <div class="form-group">
+      <input type="text" class="form-control shadow-none" name="suppliedName" placeholder="Name" id="suggestedName" aria-describedby="suggestName">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control shadow-none" id="country" name="country" placeholder="Country">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control shadow-none" id="tribe" name="tribe" placeholder="Tribe">
+    </div>
+    <button type="submit" class="btn btn-primary shadow-none">Submit</button>
+  </form>
+
+</div>
+
+
+
+
+<%- include("partials/footer") -%>

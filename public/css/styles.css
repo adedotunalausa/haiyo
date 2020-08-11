@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #393e46;
+  background-color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+form {
+  margin: 2rem auto;
+  width: 20rem;
+}
+form .btn {
+  color: #222831;
+  border-color: #222831;
+  background: none;
+}
+form .btn:hover {
+  color: #32e0c4;
+  background-color: #222831;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.navbar .collapse .navbar-nav .nav-item .navlink {
+  color: #32e0c4;
+  background-color: #000;
+}
+.navbar .btn {
+  color: #222831;
+  border-color: #222831;
+  background: none;
+}
+.navbar .btn:hover {
+  color: #32e0c4;
+  background-color: #222831;
+}
+
+.main {
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+
+.main-home h1 {
+  font-size: 3rem;
+}
+.main-home p {
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+}
+.main-home .bio {
+  padding: 0 3rem;
+}
+.main-home .home-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  max-width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.main-home .home-images-container img {
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.main-about {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.main-how-it-works {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.main-success {
+  text-align: center;
+  margin: 5rem 0 4rem 0;
+}
+.main-success h2 {
+  font-size: 2.5rem;
+}
+.main-success p {
+  font-size: 1rem;
+}
+.main-success a {
+  font-size: 0.8rem;
+}
+.main-success .btn {
+  color: #222831;
+  border-color: #222831;
+  background: none;
+}
+.main-success .btn:hover {
+  color: #32e0c4;
+  background-color: #222831;
+}
+
+.main-failure, .main-nameSaved {
+  margin: 7rem 0 4rem 0;
+  text-align: center;
+}
+.main-failure h2, .main-nameSaved h2 {
+  font-size: 2.5rem;
+  padding: 0 2rem;
+}
+.main-failure p, .main-nameSaved p {
+  font-size: 1rem;
+  padding: 0 4rem;
+}
+.main-failure a, .main-nameSaved a {
+  font-size: 0.8rem;
+}
+.main-failure .btn, .main-nameSaved .btn {
+  color: #222831;
+  border-color: #222831;
+  background: none;
+}
+.main-failure .btn:hover, .main-nameSaved .btn:hover {
+  color: #32e0c4;
+  background-color: #222831;
+}
+.main-failure p a, .main-nameSaved p a {
+  padding: 0.1rem 0.5rem;
+  color: #32e0c4;
+  background-color: #222831;
+  border-radius: 0.3rem;
+}
+.main-failure p a:hover, .main-nameSaved p a:hover {
+  color: #222831;
+  text-decoration: none;
+  background: none;
+  border-style: solid;
+  border-width: thin;
+}
+
+.main-suggestName {
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+.main-suggestName h4 {
+  padding: 0 3rem;
+}
+
+.haiyo-footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #222831;
+  width: 100%;
+  height: 4rem;
+  padding-top: 1.5rem;
+}
+.haiyo-footer a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.haiyo-footer span, .haiyo-footer a:hover {
+  color: #32e0c4;
+}
+.haiyo-footer span {
+  margin-left: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  .main-home h1 {
+    font-size: 6rem;
+  }
+  .main-home form {
+    width: 35rem;
+  }
+  .main-home form input, .main-home form button {
+    height: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

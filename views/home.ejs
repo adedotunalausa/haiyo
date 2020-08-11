@@ -1,0 +1,32 @@
+
+<%- include("partials/header") -%>
+
+
+<div class="main-home main">
+
+    <h1>Haiyo</h1>
+
+    <form action="/" method="post">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control shadow-none" name="requestedName" placeholder="Enter the name" aria-label="Enter the name" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-secondary shadow-none" type="submit" id="button-addon2" name="submitButton"> <i class="fas fa-search"></i> </button>
+        </div>
+      </div>
+    </form>
+
+    <p class="bio">Search Nigerian names and get their meanings</p>
+
+    <p>Hausa     Igbo     Yorùbá</p>
+
+    <div class="home-images-container">
+      <img src="images/girl.svg" alt="girl-img">
+      <img src="images/woman.svg" alt="woman-img">
+      <img src="images/man.svg" alt="man-img">
+    </div>
+
+</div>
+
+
+
+<%- include("partials/footer") -%>

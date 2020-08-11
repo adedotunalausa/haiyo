@@ -1,0 +1,249 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  color: #393e46;
+  background-color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+form {
+  margin: 2rem auto;
+  width: 20rem;
+
+  .btn {
+    color: #222831;
+    border-color: #222831;
+    background: none
+  }
+
+  .btn:hover {
+    color: #32e0c4;
+    background-color: #222831;
+  }
+}
+
+.jumbotron {
+  background: none;
+}
+
+// Nav Bar
+.navbar {
+
+  .collapse {
+    .navbar-nav {
+      .nav-item {
+        .navlink {
+          color: #32e0c4;
+          background-color: #000;
+        }
+      }
+    }
+  }
+
+  .btn {
+    color: #222831;
+    border-color: #222831;
+    background: none
+  }
+
+  .btn:hover {
+    color: #32e0c4;
+    background-color: #222831;
+  }
+}
+
+.main {
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+
+// Home Page
+.main-home {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p{
+    white-space: pre-wrap;
+    font-size: 0.9rem;
+  }
+
+  .bio {
+    padding: 0 3rem;
+  }
+
+  .home-images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+
+    img {
+      width: 8rem;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+// About Page
+.main-about {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+//How Haiyo Works Page
+.main-how-it-works {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+// Success Page
+.main-success {
+  text-align: center;
+  margin: 5rem 0 4rem 0;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    color: #222831;
+    border-color: #222831;
+    background: none
+  }
+
+  .btn:hover {
+    color: #32e0c4;
+    background-color: #222831;
+
+  }
+}
+
+
+// Failure Page
+.main-failure, .main-nameSaved {
+  margin: 7rem 0 4rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 4rem;
+  }
+
+  a {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    color: #222831;
+    border-color: #222831;
+    background: none;
+  }
+
+  .btn:hover {
+    color: #32e0c4;
+    background-color: #222831;
+  }
+
+  p a {
+    padding: .1rem .5rem;
+    color: #32e0c4;
+    background-color: #222831;
+    border-radius: .3rem;
+  }
+
+  p a:hover {
+    color: #222831;
+    text-decoration: none;
+    background: none;
+    border-style: solid;
+    border-width: thin;
+  }
+
+}
+
+// Suggest Name Page
+.main-suggestName {
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+
+  h4 {
+    padding: 0 3rem;
+  }
+}
+
+// Footer
+.haiyo-footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #222831;
+  width: 100%;
+  height: 4rem;
+  padding-top: 1.5rem;
+
+  a {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: .5rem;
+  }
+
+  span, a:hover {
+    color: #32e0c4;
+  }
+
+  span {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  // Home Page
+  .main-home {
+
+    h1 {
+      font-size: 6rem;
+    }
+
+    form {
+      width: 35rem;
+
+      input, button {
+        height: 2.5rem;
+      }
+    }
+  }
+}

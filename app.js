@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -12,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect("mongodb+srv://admin-adedotun:Mn2mwbZXGyK45QJ@haiyo-cluster.hdjma.mongodb.net/haiyoDB", {
+mongoose.connect("mongodb+srv://haiyo_user:"+process.env.MONGOPWD+"@haiyo-cluster.hdjma.mongodb.net/haiyoDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

@@ -4,6 +4,7 @@
   "description": "A web app for the meaning of Nigerian names",
   "main": "app.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adedotun Alausa",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "lodash": "^4.17.15",

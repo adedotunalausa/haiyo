@@ -19,6 +19,12 @@ body {
   overflow-x: hidden;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
 form {
   margin: 2rem auto;
   width: 20rem;
@@ -72,8 +78,7 @@ form .btn:hover {
   align-items: center;
   padding: 0.5rem;
   max-width: 30rem;
-  margin: auto;
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 .main-home .home-images-container img {
   width: 8rem;
@@ -164,7 +169,7 @@ form .btn:hover {
   bottom: 0;
   text-align: center;
   background-color: #222831;
-  width: 100%;
+  width: 100vw;
   height: 4rem;
   padding-top: 1.5rem;
 }
